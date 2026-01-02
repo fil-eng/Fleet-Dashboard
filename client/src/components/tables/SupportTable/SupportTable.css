@@ -1,0 +1,23 @@
+.support-table-container {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.support-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.support-table th,
+.support-table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.support-table button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

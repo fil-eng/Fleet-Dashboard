@@ -1,0 +1,18 @@
+.maintenance-table-container {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.maintenance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.maintenance-table th,
+.maintenance-table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}

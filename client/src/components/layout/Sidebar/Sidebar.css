@@ -1,0 +1,19 @@
+/* Sidebar.css */
+.sidebar {
+  width: 220px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar a.active {
+  font-weight: bold;
+}

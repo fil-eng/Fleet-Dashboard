@@ -1,0 +1,10 @@
+.maintenance-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

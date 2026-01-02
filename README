@@ -1,0 +1,40 @@
+fleet-management/
+├─ server/                 # Backend 
+│
+├─ client/                 # React frontend
+│  ├─ src/
+│  │  ├─ app/
+│  │  │  ├─ App.jsx
+│  │  │  └─ router.jsx
+│  │  │
+│  │  ├─ components/       # Reusable UI
+│  │  │  ├─ cards/
+│  │  │  ├─ tables/
+│  │  │  ├─ layout/
+│  │  │  └─ command-center/
+│  │  │
+│  │  ├─ features/         # Domain-based modules
+│  │  │  ├─ vehicles/
+│  │  │  ├─ drivers/
+│  │  │  ├─ maintenance/
+│  │  │  └─ support/
+│  │  │
+│  │  ├─ services/         # API + socket services
+│  │  │  ├─ api.js
+│  │  │  └─ socket.js
+│  │  │
+│  │  ├─ hooks/
+│  │  ├─ styles/
+│  │  └─ main.jsx
+│
+├─ package.json
+└─ README.md
+
+
+server/
+ ├─ app.js
+ ├─ server.js
+ ├─ sockets/
+ │   └─ index.js   ← socket lifecycle + service injection
+ ├─ services/
+ │   └─ *.service.js (emit events)

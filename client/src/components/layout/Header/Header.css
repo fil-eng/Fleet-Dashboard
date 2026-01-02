@@ -1,0 +1,17 @@
+/* Header.css */
+.header {
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  justify-content: space-between;
+}
+h1 {
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: orangered;
+}

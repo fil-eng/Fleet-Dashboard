@@ -1,0 +1,35 @@
+.vehicle-table-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.vehicle-search {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vehicle-table th,
+.vehicle-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.vehicle-table th {
+  background-color: #f5f5f5;
+}
+
+.vehicle-table button {
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
